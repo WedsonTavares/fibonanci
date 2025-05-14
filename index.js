@@ -1,11 +1,11 @@
 // === Questão 1 ===
 function questao1() {
-  let INDICE = 13, SOMA = 0, K = 0;
-  while (K < INDICE) {
+  let indice = 13, soma = 0, K = 0;
+  while (K < indice) {
     K = K + 1;
-    SOMA = SOMA + K;
+    soma = soma + K;
   }
-  console.log("[1] SOMA final:", SOMA);
+  console.log("[1] Soma final:", soma);
 }
 
 // === Questão 2 ===
@@ -20,7 +20,7 @@ function isFibonacci(n) {
 function questao2() {
   const numero = 21;
   const resultado = isFibonacci(numero)
-    ? `${numero} pertence à sequência de Fibonacci.`
+    ? `${numero} Pertence à sequência de Fibonacci.`
     : `${numero} NÃO pertence à sequência de Fibonacci.`;
   console.log("[2]", resultado);
 }
@@ -74,7 +74,7 @@ function inverterString(str) {
 }
 
 function questao5() {
-  const texto = "Wedson";
+  const texto = "Jose Wedson Tavares";
   console.log("[5] Texto invertido:", inverterString(texto));
 }
 
