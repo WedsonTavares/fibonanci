@@ -1,4 +1,4 @@
-# 🚀 Desafio Técnico - JavaScript
+# 🚀 Fibonanci - JavaScript
 
 Este projeto contém a resolução de cinco desafios técnicos propostos, utilizando a linguagem **JavaScript (Node.js)**.
 
